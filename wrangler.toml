@@ -2,15 +2,13 @@ name = "streamsphere-worker"
 main = "worker/index.js"
 compatibility_date = "2025-01-01"
 
-# Worker D1 binding
 [[d1_databases]]
 binding = "DB"
 database_name = "streamsphere-db"
 database_id = "75d0350d-d33a-4a0d-a108-477acfd94054"
 
-# Workers AI binding
 [ai]
 binding = "AI"
 
-# Pages config
+[pages]
 pages_build_output_dir = "frontend"
