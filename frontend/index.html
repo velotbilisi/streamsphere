@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StreamSphere - Cloud-powered video streaming platform">
+  <title>StreamSphere | Gelenidze Gramito</title>
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <h1>🎥 StreamSphere</h1>
+    <p class="signature">Powered by Cloud Infrastructure • Engineered with RedBull & ChatGPT</p>
+  </header>
+
+  <main>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <h2>🔥 Featured Shorts</h2>
+
+      <div class="video-container">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/Rd8TkcndbQg"
+            title="StreamSphere Video 1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/QrCOFMq6EKM"
+            title="StreamSphere Video 2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments-section">
+      <h2>💬 Comments</h2>
+
+      <div id="comments" aria-live="polite"></div>
+
+      <div class="comment-form">
+        <label for="commentInput">Add a Comment</label>
+        <textarea 
+          id="commentInput" 
+          placeholder="Write your comment here..."
+          rows="4"
+          required>
+        </textarea>
+
+        <button type="button" onclick="postComment()">Post Comment</button>
+      </div>
+    </section>
+
+    <!-- AI Assistant Section -->
+    <section class="ai-section">
+      <h2>🤖 AI Assistant</h2>
+
+      <div class="ai-form">
+        <label for="aiPrompt">Ask the AI</label>
+        <input 
+          type="text" 
+          id="aiPrompt" 
+          placeholder="Ask something about cloud computing..."
+          required>
+
+        <button type="button" onclick="askAI()">Ask AI</button>
+      </div>
+
+      <div id="aiResponse" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 StreamSphere • Gelenidze Gramito Computing Assignment</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="app.js" defer></script>
+
+</body>
+</html>
