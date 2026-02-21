@@ -10,5 +10,3 @@ database_id = "75d0350d-d33a-4a0d-a108-477acfd94054"
 [ai]
 binding = "AI"
 
-[pages]
-pages_build_output_dir = "frontend"
