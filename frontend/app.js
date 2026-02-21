@@ -1,4 +1,4 @@
-const API_URL = "https://your-worker-url.workers.dev";
+const API_URL = "https://streamsphere-worker.velotbilisi.workers.dev";
 
 
 function showMessage(elementId, message) {
